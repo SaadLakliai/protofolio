@@ -1,0 +1,62 @@
+:root {
+	--type-write-size: 60px;
+	--white-color: white;
+	--black-color: black;
+	--yellow-color: yellow;
+	--bg-color: blueviolet;
+}
+
+.nav-link {
+	font-family: 'Roboto Flex';
+	font-size: 17px;
+	color: var(--white-color);
+}
+
+body {
+	background: var(--bg-color);
+}
+
+.text {
+	font-family: 'Montserrat', monospace;
+	font-size: 20px;
+	color: var(--white-color);
+	padding: 1.5rem;
+	font-weight: bold;
+}
+
+.text .arrow {
+	color: var(--black-color);
+}
+
+.unactive {
+	display: none;
+}
+
+.texture {
+	font-family: 'Montserrat', monospace;
+	font-size: var(--type-write-size);
+	color: var(--white-color);
+	padding: 1.5rem;
+	font-weight: bold;
+	color: white;
+}
+
+.write {
+	color: var(--yellow-color);
+}
+
+.textarea {
+	width: 64%;
+	min-height: 12vh;
+	background: black;
+	color: white;
+	font-family: 'Robot', monospace;
+	position: relative;
+}
+
+.texted {
+	padding: .5rem;
+}
+
+
+
